@@ -1,12 +1,62 @@
-# React + Vite
+# Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Finance Tracker is a simple and efficient web application built with React and Vite. It allows users to track their financial transactions, filter records, paginate results, and visualize financial data with interactive charts.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Transactions**: Users can add new financial transactions with details such as amount, category, and date.
+- **Filter Transactions**: Filter records based on category, date range, or amount.
+- **Pagination**: Transactions are paginated for better usability and performance.
+- **Charts & Analytics**: Visualize financial data using dynamic charts.
+- **Fast & Responsive**: Built with React and optimized for performance using Vite.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (UI development)
+- **Vite** (Fast build tool)
+- **Tailwind CSS** (Styling)
+- **Shadcn** (UI)
+- **Recharts** (Data visualization)
+
+## Installation & Setup
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/lokki931/trackerFinance.git
+   cd finance-tracker
+   ```
+
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server**
+   ```sh
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```sh
+   npm run build
+   ```
+
+## Usage
+
+- Navigate to the homepage to view recent transactions.
+- Use the filter options to sort and refine transaction records.
+- Navigate through paginated transaction results.
+- View analytics charts for financial insights.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request with improvements or new features.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Author**: [Taras]([https://github.com/your-username](https://github.com/lokki931/trackerFinance/))
+
